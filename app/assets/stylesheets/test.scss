@@ -1,3 +1,36 @@
 // Place all the styles related to the Test controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: #222;
+$max-largeur: 600px;
+$max-hauteur: 400px;
+$margin: 20px 20px 20px 20px;
+
+
+.post {
+  color: $secondary-color;
+  display: inline-block;
+  max-width: $max-largeur;
+  min-width: $max-largeur/2;
+  width: 20%;
+  max-height: $max-hauteur;
+  min-height: $max-hauteur/2;
+  height: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-style: solid;
+  border-width: 5px;
+  margin: $margin;
+
+}
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h2{
+  font :200%;
+}
