@@ -5,7 +5,17 @@ class TestController < ApplicationController
     test  = HTTParty.get "https://www.reddit.com/r/factorio.json",
             :headers => {
                         }
+
+    @youtube = Array.new
+    test["data"]["children"].each{
+      |x|
+      case x["data"]["domain"]
+      when "youtu.be"
+        @youtube.push(x)
+      end
+    }
     @content = test["data"]["children"]
+
     @test = "ptite Bite"
   end
 end

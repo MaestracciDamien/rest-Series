@@ -1,12 +1,16 @@
 <div class="main">
 
-  <%= render partial: "shared/menu", locals: {test: @test} %>
   <div class="container">
     <h1>Hello my name is Patrick</h1>
     <p>I make Rails apps.</p>
   </div>
   <% @content.each do |x| %>
   <p><%= x["data"]["domain"]  %></p>
+
+  <% end  %>
+
+  <% @youtube.each do |x| %>
+  <%=raw x["data"]["media_embed"]["content"] %>
 
   <% end  %>
 </div>
