@@ -18,7 +18,5 @@ class TestController < ApplicationController
       end
     }
     @content = test["data"]["children"]
-
-    @test = "ptite Bite"
   end
 end

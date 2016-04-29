@@ -5,12 +5,10 @@
     <p>I make Rails apps.</p>
   </div>
   <% @content.each do |x| %>
-  <p><%= x["data"]["domain"]  %></p>
-
+  <%= render partial: "shared/post", locals: {post: x["data"]} %>
   <% end  %>
 
   <% @youtube.each do |x| %>
   <%=raw x %>
-
   <% end  %>
 </div>

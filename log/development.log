@@ -1633,3 +1633,687 @@ Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 22:37:01 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:14:51 +0200
+Processing by TestController#show as HTML
+  Rendered test/show.html.erb within layouts/application (66.7ms)
+Completed 500 Internal Server Error in 1924ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial test/_post, application/_post with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Damien/Documents/seriesProject/rest_Series/app/views"
+):
+     5:     <p>I make Rails apps.</p>
+     6:   </div>
+     7:   <% @content.each do |x| %>
+     8:   <% render partial: "post", locals: {post: x} %>
+     9: 
+    10:   <% end  %>
+    11: 
+  app/views/test/show.html.erb:8:in `block in _app_views_test_show_html_erb___2977524185361066376_70247425095360'
+  app/views/test/show.html.erb:7:in `each'
+  app/views/test/show.html.erb:7:in `_app_views_test_show_html_erb___2977524185361066376_70247425095360'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (107.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.2ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.0ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.3ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:15:19 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (3.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 1096ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:15:20 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:15:34 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 7411ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:15:42 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:06 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.9ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (57.6ms)
+Completed 200 OK in 2153ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:16:08 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:22 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (15.4ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (54.9ms)
+Completed 200 OK in 1648ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:16:24 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:41 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.5ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 3025ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:44 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 10838ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:55 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 1612ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:16:56 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 7960ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:18:00 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 809ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:18:01 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:18:08 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (1.9ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (62.3ms)
+Completed 200 OK in 7054ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:18:15 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 1790ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:19:44 +0200
+Processing by TestController#show as HTML
+  Rendered test/show.html.erb within layouts/application (182.8ms)
+Completed 500 Internal Server Error in 1593ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007fc782a1c948>:0x007fc78556aa50>):
+     5:     <p>I make Rails apps.</p>
+     6:   </div>
+     7:   <% @content.each do |x| %>
+     8:   <%= render partial: "shared/post", locals: {x: post} %>
+     9:   <% end  %>
+    10: 
+    11:   <% @youtube.each do |x| %>
+  app/views/test/show.html.erb:8:in `block in _app_views_test_show_html_erb___2977524185361066376_70247456131660'
+  app/views/test/show.html.erb:7:in `each'
+  app/views/test/show.html.erb:7:in `_app_views_test_show_html_erb___2977524185361066376_70247456131660'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.3ms)
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:20:03 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 1617ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:20:04 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-29 23:20:33 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.8ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 1129ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-29 23:20:34 +0200
