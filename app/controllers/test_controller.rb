@@ -11,7 +11,10 @@ class TestController < ApplicationController
       |x|
       case x["data"]["domain"]
       when "youtu.be"
-        @youtube.push(x)
+        s = x["data"]["media_embed"]["content"]
+        s=s.gsub! '&gt;', '>'
+        s=s.gsub! '&lt;', '<'
+        @youtube.push(s)
       end
     }
     @content = test["data"]["children"]
