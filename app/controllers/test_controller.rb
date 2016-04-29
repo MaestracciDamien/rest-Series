@@ -6,5 +6,6 @@ class TestController < ApplicationController
             :headers => {
                         }
     @content = test["data"]["children"]
+    @test = "ptite Bite"
   end
 end
