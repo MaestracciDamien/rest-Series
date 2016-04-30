@@ -3797,3 +3797,1320 @@ Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 00:15:50 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 00:18:31 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 7877ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/test.self-c58310882ecf03cde2a0bbfdb11c36445f4d9e97537aa9afa86c24e25a01f4fb.css?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 00:18:39 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 12:04:23 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.9ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 3773ms (Views: 590.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/test.self-c58310882ecf03cde2a0bbfdb11c36445f4d9e97537aa9afa86c24e25a01f4fb.css?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 12:04:28 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:08:28 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.8ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (47.5ms)
+Completed 500 Internal Server Error in 3998ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (require_self can only be called once per source file):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (132.1ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:09:20 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered test/show.html.erb within layouts/application (41.7ms)
+Completed 500 Internal Server Error in 1340ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: tree.
+Load paths:
+  /Users/Damien/Documents/seriesProject/rest_Series/app/assets/images
+  /Users/Damien/Documents/seriesProject/rest_Series/app/assets/javascripts
+  /Users/Damien/Documents/seriesProject/rest_Series/app/assets/stylesheets
+  /Users/Damien/Documents/seriesProject/rest_Series/vendor/assets/javascripts
+  /Users/Damien/Documents/seriesProject/rest_Series/vendor/assets/stylesheets
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.1.1/vendor/assets/javascripts
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.2.0.2/assets/javascripts
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.2.0.2/assets/fonts
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.2.0.2/assets/images
+  /Users/Damien/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.8ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:10:53 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.5ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (46.7ms)
+Completed 200 OK in 7571ms (Views: 6178.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-04-30 13:11:01 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:11:51 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (47.2ms)
+Completed 200 OK in 3595ms (Views: 244.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:11:54 +0200
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:11:55 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:16:20 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (2.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.7ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 3170ms (Views: 255.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:16:24 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:17:05 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (5.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 1922ms (Views: 203.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:17:07 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:17:08 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:17:12 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.5ms)
+  Rendered test/show.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 1154ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:17:13 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:17:14 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:17:34 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (9.8ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (201.4ms)
+Completed 200 OK in 1264ms (Views: 311.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3886ece82404f47742ee018c73052ff8d9e0fdcc3b215e9aa66ce69be60b9b4.css?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:17:35 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:20:43 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.7ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.4ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 1803ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (require_self can only be called once per source file):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.sass:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (143.0ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:21:00 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.5ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (41.7ms)
+Completed 500 Internal Server Error in 1712ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (CssSyntaxError: /Users/Damien/Documents/seriesProject/rest_Series/app/assets/stylesheets/application.css.sass:15:2: Unknown word
+ */
+ *
+ ^
+ * // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  apply.from (eval at <anonymous> ((execjs):29172:8), <anonymous>:1:39)
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.6ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:22:10 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.5ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (43.4ms)
+Completed 500 Internal Server Error in 2998ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (CssSyntaxError: /Users/Damien/Documents/seriesProject/rest_Series/app/assets/stylesheets/application.css.sass:15:2: Unknown word
+ */
+ * // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+ ^
+ * @import "bootstrap-sprockets"):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  apply.from (eval at <anonymous> ((execjs):29172:8), <anonymous>:1:39)
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.4ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:22:29 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (40.8ms)
+Completed 500 Internal Server Error in 4473ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (CssSyntaxError: /Users/Damien/Documents/seriesProject/rest_Series/app/assets/stylesheets/application.css.sass:15:2: Unknown word
+ */
+ *
+ ^
+ *  "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  apply.from (eval at <anonymous> ((execjs):29172:8), <anonymous>:1:39)
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (116.4ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:22:49 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (37.3ms)
+Completed 500 Internal Server Error in 8622ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (CssSyntaxError: /Users/Damien/Documents/seriesProject/rest_Series/app/assets/stylesheets/application.css.sass:17:2: Unknown word
+ */
+ *
+ ^
+ * @import "bootstrap-sprockets"):
+    2: <html>
+    3: <head>
+    4:   <title>RestSeries</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  apply.from (eval at <anonymous> ((execjs):29172:8), <anonymous>:1:39)
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3085502366154407706_70345141947820'
+
+
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.2ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.8ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Damien/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.7ms)
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:23:27 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.3ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered test/show.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 9507ms (Views: 5042.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/test.self-c58310882ecf03cde2a0bbfdb11c36445f4d9e97537aa9afa86c24e25a01f4fb.css?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/application.self-19c61dc7ff8d87584739ba71b4e7ca9014404603e23ebe59ece12aa423844222.css?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:23:36 +0200
+
+
+Started GET "/test" for ::1 at 2016-04-30 13:28:36 +0200
+Processing by TestController#show as HTML
+  Rendered shared/_post.html.erb (0.6ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.2ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered shared/_post.html.erb (0.1ms)
+  Rendered shared/_post.html.erb (0.0ms)
+  Rendered test/show.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 7017ms (Views: 4753.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/serie.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/application.self-19c61dc7ff8d87584739ba71b4e7ca9014404603e23ebe59ece12aa423844222.css?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/test.self-1a6ba344fe258a84a62d824ded4fadea1035821cf8d8b2ddebd3b4e47e27ecd6.css?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/serie.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/test.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-30 13:28:43 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 13:28:44 +0200
